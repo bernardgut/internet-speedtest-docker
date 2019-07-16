@@ -1,8 +1,8 @@
 #!/bin/sh
 FILE="/app/speedtest/test_connection.log"
 
-while true 
-do 
+while true
+do
 	TIMESTAMP=$(date '+%s')
 
 	/app/speedtest/speedtest-cli > $FILE
